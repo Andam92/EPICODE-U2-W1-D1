@@ -286,17 +286,20 @@ footer a {
     width: 80%;
   }
 
-  #video {
-    display: inline-block;
-    width: 49%;
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  iframe {
+    width: 50%;
     height: 250px;
   }
 
   section {
-    width: 49%;
-    display: inline-block;
-    border-radius: 10px;
-    height: 200px;
+    width: 50%;
+    border-radius: 20px;
+    height: 250px;
   }
 
   section h2 {
